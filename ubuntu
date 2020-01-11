@@ -2,5 +2,11 @@ CARA MENGHAPUS APLIKASI DI UBUNTU
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
 rm -rf ~/.local/share/Steam && rm -rf ~/.steam
+CARA UNTUK MENJALAN KAN XAMPP UBUNTU
+sudo su
+cd /opt/lampp
+/opt/lampp/lampp start
+/opt/lampp/lampp stop
 MEMBUKA IJIN FOLDER UBUNTU
 sudo chmod 777 -R /opt/lampp/htdocs
+
