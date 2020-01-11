@@ -1,3 +1,9 @@
+HAL WAJIB YANG DI INSTALL!!!
+sudo add-apt-repository main
+sudo add-apt-repository universe
+sudo add-apt-repository restricted
+sudo add-apt-repository multiverse
+
 CARA MENGHAPUS APLIKASI DI UBUNTU
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
