@@ -4,6 +4,26 @@ sudo add-apt-repository universe
 sudo add-apt-repository restricted
 sudo add-apt-repository multiverse
 
+KAMBING SERVER
+cd /etc/apt
+ls -lh
+sudo cp sources.list sources.list.orig
+sudo nano sources.list
+sudo apt-get update
+
+deb http://kambing.ui.ac.id/ubuntu/ bionic main restricted
+deb http://kambing.ui.ac.id/ubuntu/ bionic-updates main restricted
+deb http://kambing.ui.ac.id/ubuntu/ bionic universe
+deb http://kambing.ui.ac.id/ubuntu/ bionic-updates universe
+deb http://kambing.ui.ac.id/ubuntu/ bionic multiverse
+deb http://kambing.ui.ac.id/ubuntu/ bionic-updates multiverse
+deb http://kambing.ui.ac.id/ubuntu/ bionic-backports main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ bionic-security main restricted
+deb http://kambing.ui.ac.id/ubuntu/ bionic-security universe
+deb http://kambing.ui.ac.id/ubuntu/ bionic-security multiverse
+
+
+
 CARA MENGHAPUS APLIKASI DI UBUNTU
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
@@ -29,7 +49,5 @@ composer create-project laravel/laravel your-project-name --prefer-dist
 composer create-project --prefer-dist laravel/laravel /home/ubrut420/Documents/mylaravel
 /.composer/vendor/laravel/installer/bin/mylaravel
 php artisan serve
-
-
 apt-get install php-modul laravel
 
