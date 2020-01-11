@@ -1,0 +1,4 @@
+CARA MENGHAPUS APLIKASI DI UBUNTU
+sudo apt-get remove steam-launcer
+sudo apt-get purge steam
+rm -rf ~/.local/share/Steam && rm -rf ~/.steam
