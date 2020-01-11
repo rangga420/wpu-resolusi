@@ -8,6 +8,7 @@ CARA MENGHAPUS APLIKASI DI UBUNTU
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
 rm -rf ~/.local/share/Steam && rm -rf ~/.steam
+rm -rf ~/.composer/vendor/laravel/installer/bin/mylaravel
 
 CARA UNTUK MENJALAN KAN XAMPP UBUNTU
 sudo su
@@ -22,4 +23,11 @@ touch namafile.etensi
 MEMBUKA IJIN FOLDER UBUNTU
 sudo chmod 777 -R /opt/lampp/htdocs
 
+LARAVEL
+./laravel new blog
+composer create-project laravel/laravel your-project-name --prefer-dist
+composer create-project --prefer-dist laravel/laravel /home/ubrut420/Documents/mylaravel
+
+
+apt-get install php-modul laravel
 
