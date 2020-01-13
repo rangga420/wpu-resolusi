@@ -59,6 +59,9 @@ sudo apt install code
 sudo code --user-data-dir="~/.vscode-root"
 sudo apt remove code && sudo apt autoremove
 
+CARA INSTALL JAVA NETBEANS 8.2
+https://youtu.be/hyw0CHKGQ_Y
+
 CARA INSTALL XAMPP
 cd Downloads
 chmod 755 [package name]
