@@ -45,6 +45,17 @@ CARA INSTALL CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+CARA INSTALL COMPOSER
+sudo apt update
+sudo apt install wget php-cli php-zip unzip
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
+tempat penyimpanan file composer php /usr/local/bin/composer
+
+
 CARA INSTALL VSCODE
 sudo apt update
 sudo apt install software-properties-common apt-transport-https wget
