@@ -25,6 +25,7 @@ deb http://kambing.ui.ac.id/ubuntu/ bionic-security multiverse
 
 
 CARA MENGHAPUS APLIKASI DI UBUNTU
+sudo rm -rf .composer
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
 rm -rf ~/.local/share/Steam && rm -rf ~/.steam
@@ -32,14 +33,6 @@ rm -rf ~/.composer/vendor/laravel/installer/bin/mylaravel
 
 CARA MEMBUAT FILE
 touch namafile.etensi
-
-LARAVEL
-./laravel new blog
-composer create-project laravel/laravel your-project-name --prefer-dist
-composer create-project --prefer-dist laravel/laravel /home/ubrut420/Documents/mylaravel
-/.composer/vendor/laravel/installer/bin/mylaravel
-php artisan serve
-apt-get install php-modul laravel
 
 CARA INSTALL CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -79,3 +72,29 @@ cd /opt/lampp
 /opt/lampp/lampp start
 /opt/lampp/lampp stop
 sudo ./manager-linux-x64.run
+
+CARA INSTALL LARAVEL UBUNTU
+sudo su
+apt-get install php
+apt-get install php-bcmath
+composer global require laravel/installer
+/.composer/vendor/laravel/installer/bin/mylaravel
+php artisan serve
+
+LARAVEL
+./laravel new blog
+composer create-project laravel/laravel your-project-name --prefer-dist
+composer create-project --prefer-dist laravel/laravel /home/ubrut420/Documents/mylaravel
+
+
+
+
+
+
+
+
+
+
+
+
+
