@@ -51,3 +51,6 @@ composer create-project --prefer-dist laravel/laravel /home/ubrut420/Documents/m
 php artisan serve
 apt-get install php-modul laravel
 
+CARA INSTALL CHROME
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
