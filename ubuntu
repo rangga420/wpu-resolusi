@@ -30,18 +30,8 @@ sudo apt-get purge steam
 rm -rf ~/.local/share/Steam && rm -rf ~/.steam
 rm -rf ~/.composer/vendor/laravel/installer/bin/mylaravel
 
-CARA UNTUK MENJALAN KAN XAMPP UBUNTU
-sudo su
-cd /opt/lampp
-/opt/lampp/lampp start
-/opt/lampp/lampp stop
-sudo ./manager-linux-x64.run
-
 CARA MEMBUAT FILE
 touch namafile.etensi
-
-MEMBUKA IJIN FOLDER UBUNTU
-sudo chmod 777 -R /opt/lampp/htdocs
 
 LARAVEL
 ./laravel new blog
@@ -54,3 +44,27 @@ apt-get install php-modul laravel
 CARA INSTALL CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+CARA INSTALL VSCODE
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+sudo code --user-data-dir="~/.vscode-root"
+sudo apt remove code && sudo apt autoremove
+
+CARA INSTALL XAMPP
+cd Downloads
+chmod 755 [package name]
+ls -l [package name]
+sudo ./[package name]
+sudo chmod 777 -R /opt/lampp/htdocs
+
+CARA UNTUK MENJALAN KAN XAMPP UBUNTU
+sudo su
+cd /opt/lampp
+/opt/lampp/lampp start
+/opt/lampp/lampp stop
+sudo ./manager-linux-x64.run
