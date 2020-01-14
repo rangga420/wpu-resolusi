@@ -69,6 +69,7 @@ ls -l [package name]
 sudo ./[package name]
 sudo chmod 777 -R /opt/lampp/htdocs
 sudo apt install net-tools
+sudo /etc/init.d/apache2 stop
 
 CARA UNTUK MENJALAN KAN XAMPP UBUNTU
 sudo su
