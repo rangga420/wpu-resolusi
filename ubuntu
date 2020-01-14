@@ -25,6 +25,7 @@ deb http://kambing.ui.ac.id/ubuntu/ bionic-security multiverse
 
 
 CARA MENGHAPUS APLIKASI DI UBUNTU
+rm nama file
 sudo rm -rf .composer
 sudo apt-get remove steam-launcer
 sudo apt-get purge steam
@@ -33,6 +34,9 @@ rm -rf ~/.composer/vendor/laravel/installer/bin/mylaravel
 
 CARA MEMBUAT FILE
 touch namafile.etensi
+
+CARA BUKA FILE MANAGER
+nautilus
 
 CARA INSTALL CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
