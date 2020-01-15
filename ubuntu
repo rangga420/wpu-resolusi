@@ -80,7 +80,7 @@ sudo su
 cd /opt/lampp
 /opt/lampp/lampp start
 /opt/lampp/lampp stop
-sudo ./manager-linux-x64.run
+sudo /opt/lampp/manager-linux-x64.run
 
 CARA INSTALL LARAVEL UBUNTU
 sudo su
