@@ -10,6 +10,8 @@ wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
 sudo wget http://deb.playonlinux.com/playonlinux_precise.list -O /etc/apt/sources.list.d/playonlinux.list
 sudo apt-get update
 sudo apt-get install playonlinux
+sudo apt-get install xterm p7zip-full
+
 
 HAL WAJIB YANG DI INSTALL!!!
 sudo add-apt-repository main
@@ -38,6 +40,8 @@ deb http://kambing.ui.ac.id/ubuntu/ bionic-security multiverse
 
 
 CARA MENGHAPUS APLIKASI DI UBUNTU
+sudo apt-get autoremove
+sudo apt-get autocleam
 rm nama file
 sudo rm -rf .composer
 sudo apt-get remove steam-launcer
