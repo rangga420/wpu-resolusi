@@ -4,6 +4,7 @@ sudo apt install software-properties-common
 sudo apt-add-repository 'deb http://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 sudo apt-get install --install-recommends winehq-stable
 winecfg
+udo apt-get remove --autoremove wine-stable wine-stable-amd64
 
 CARA INSTALL PLAYONLINUX
 wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
