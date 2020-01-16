@@ -75,6 +75,8 @@ sudo ./[package name]
 sudo chmod 777 -R /opt/lampp/htdocs
 sudo apt install net-tools
 sudo /etc/init.d/apache2 stop
+sudo chmod 755 /opt/lampp/phpmyadmin/config.inc.php
+chmod 644 /opt/lampp/etc/my.cnf
 
 CARA UNTUK MENJALAN KAN XAMPP UBUNTU
 sudo su
